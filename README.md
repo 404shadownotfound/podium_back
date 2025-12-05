@@ -12,14 +12,6 @@ A modern full-stack leaderboard application with Flask backend, React frontend, 
 - ✅ **Dynamic Leaderboards** - Ranking system for teams and users
 - ✅ **CORS Enabled** - Ready for frontend integration
 
-### Frontend (React + Socket.IO)
-- ✅ **Modern UI** - Glassmorphism design with gradient effects
-- ✅ **Real-time WebSocket** - Instant leaderboard updates
-- ✅ **Live Status Indicator** - Shows WebSocket connection status
-- ✅ **View Toggle** - Switch between team and user leaderboards
-- ✅ **Responsive Design** - Works on all screen sizes
-- ✅ **Smooth Animations** - Professional transitions and effects
-
 ## 📁 Project Structure
 
 ```
@@ -60,15 +52,6 @@ pip install -r requirements.txt
 # Start server
 python app.py
 # Runs on http://localhost:8003
-```
-
-### Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-# Runs on http://localhost:3000
 ```
 
 ## 📡 API Endpoints
@@ -158,15 +141,6 @@ All WebSocket clients receive instant updates!
 
 > **Note:** Collection is named `user` (singular) in MongoDB.
 
-## 🎨 Frontend Features
-
-- Real-time WebSocket updates
-- Team/User view toggle
-- Live connection status
-- Medal icons for top 3 (🥇🥈🥉)
-- Glassmorphism + gradient design
-- Smooth animations
-
 **Tech Stack:** React 18, Vite, Socket.IO Client, Axios
 
 ## 🐛 Troubleshooting
@@ -206,12 +180,6 @@ taskkill /PID <PID> /F
 - Flask-CORS 4.0.0
 - Flask-SocketIO 5.3.6
 - python-dotenv 1.0.0
-
-**Frontend:**
-- React 18.2.0
-- Socket.IO Client 4.7.2
-- Axios 1.6.2
-- Vite 5.0.8
 
 ## 📝 License
 
